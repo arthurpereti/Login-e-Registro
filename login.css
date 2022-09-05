@@ -3,7 +3,7 @@ body{
     background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
 }
 
-#box{
+.box{
     color: white;
     position: absolute;
     top: 50%;
@@ -13,4 +13,18 @@ body{
     padding: 15px;
     border-radius: 5px;
     width: 20%;
+}
+
+fieldset{
+    border: 1px solid dodgerblue;
+}
+
+legend{
+  font-size: 20px;  
+  text-align: center;
+  border: 1px solid dodgerblue;
+}
+
+.labelinput{
+    letter-spacing: 2px;
 }
