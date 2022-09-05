@@ -20,11 +20,40 @@ fieldset{
 }
 
 legend{
-  font-size: 20px;  
-  text-align: center;
-  border: 1px solid dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
 }
 
 .labelinput{
     letter-spacing: 2px;
+}
+
+.inputinput{
+    width: 98%;
+    height: 20px;
+}
+
+#submit{
+    color: white;
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    font-size: 15px;
+    margin-left: 35%;
+    width: 100px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 32%;
+}
+
+#registronologin{
+    text-align: center;
+    font-size: 15px;
+}
+
+#link{
+    color: firebrick;
 }
