@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur Pereti">
+    <link rel="stylesheet" href="css/registro.css" type="text/css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div id="box">
+        <form>
+            <fieldset>
+                <legend>Registro</legend>
+                <div>  
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" placeholder="Nome e sobrenome" class="inputinput" required><br>
+                </div>
+                <br><br>
+
+                <div> 
+                    <label for="email">Email:</label><br>
+                    <input ype="email" placeholder="Seu email" class="inputinput" required> 
+                </div>
+                <br><br>
+
+                <div> 
+                    <label for="Telefone">Telefone:</label><br>
+                    <input type="tel" placeholder="Seu telefone" class="inputinput" required>
+                </div>
+                <br><br>
+
+                <div> 
+                    <p>Sexo:</p>
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                <br>
+                    <input type="radio" id="feminino" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                <br>
+                    <input type="radio" id="outro" name="genero" value="Outro" required>
+                    <label for="outro">Outro</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+            <p id="loginnoregistro">Você já tem uma conta ? <a href="login.html">Faça Login</a></p>
+        </form>
+    </div>
+
+</body>
+</html>

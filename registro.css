@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+#box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(36, 36, 73);
+    padding: 15px;
+    border-radius: 5px;
+    width: 20%;
+}
+
+fieldset{
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.inputinput{
+    width: 98%;
+    height: 20px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#submit{
+    color: white;
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100px;
+    border: none;
+    padding: 12px;  
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+p{
+    padding: 0;
+}
+
+#loginnoregistro{
+    font-size: 15px;
+    text-align: center;
+}
